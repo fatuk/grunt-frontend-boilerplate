@@ -2,5 +2,6 @@ default:
   - 'webfont'
   - 'less'
   - 'uglify'
+  - 'shell:bower_update'
   - 'connect'
   - 'watch'
