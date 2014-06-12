@@ -1,0 +1,6 @@
+default:
+  - 'webfont'
+  - 'less'
+  - 'uglify'
+  - 'connect'
+  - 'watch'
