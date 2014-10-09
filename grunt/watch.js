@@ -4,7 +4,7 @@ module.exports = {
     },
     less: {
         files: 'less/*.less',
-        tasks: ['less'],
+        tasks: ['less', 'autoprefixer'],
         options: {
             interrupt: true,
             livereload: false
@@ -19,19 +19,12 @@ module.exports = {
     js: {
         files: ['js/*.js']
     },
-    webfont: {
-        files: 'svg/*.svg',
-        tasks: ['webfont']
+    mustache: {
+        files: ['templates/**', 'json/*.json'],
+        tasks: ['mustache_render']
     },
     plugins: {
         files: 'bower_components/**',
         tasks: ['uglify']
-    },
-    bower: {
-        files: 'bower.json',
-        tasks: ['shell:bower_update'],
-        options: {
-            livereload: false
-        }
     }
 };
