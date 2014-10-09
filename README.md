@@ -15,8 +15,9 @@ Based on original [article](http://www.html5rocks.com/en/tutorials/tooling/super
 * ["grunt-newer"](https://github.com/tschaub/grunt-newer): "^0.7.0" (selective run tasks),
 * ["grunt-notify"](https://github.com/dylang/grunt-notify): "^0.2.20" (push notifies about errors),
 * ["grunt-shell"](https://github.com/sindresorhus/grunt-shell): "^0.7.0" (run shell commands),
-* ["grunt-webfont"](https://github.com/sapegin/grunt-webfont): "^0.4.2" (generate custom icon webfonts from SVG),
 * ["load-grunt-config"](https://github.com/creynders/load-grunt-configs): "^0.8.0" (loads grunt task configurations from separate files),
 * ["time-grunt"](https://github.com/sindresorhus/time-grunt): "^0.3.1" (displays the execution time of grunt tasks)
-
-**webfont** needs **ttfautohint**, so use ttfautohint-auto-install.sh to install on Ubuntu 12.04 LTS.
+* ["grunt-autoprefixer"](https://github.com/nDmitry/grunt-autoprefixer): "^1.0.0" (adds vendor prefixes in css)
+* ["grunt-svgmin"](https://github.com/sindresorhus/grunt-svgmin): "^0.4.0" (svg minification)
+* ["grunt-svgstore"](https://github.com/FWeinb/grunt-svgstore): "^0.3.3" (making svg sprites)
+* ["grunt-text-replace"](https://github.com/yoniholmes/grunt-text-replace): "^0.3.12" (replace text from strings)
